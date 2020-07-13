@@ -7,6 +7,10 @@
   <Templates />
   <EntityImageConfigs>
     <EntityImageConfig>
+      <parententitylogicalname>msmedia_mediaevent</parententitylogicalname>
+      <primaryimageattribute>msmedia_registrationportalbannerimage</primaryimageattribute>
+    </EntityImageConfig>
+    <EntityImageConfig>
       <parententitylogicalname>msmedia_mediavenue</parententitylogicalname>
       <primaryimageattribute>msmedia_image</primaryimageattribute>
     </EntityImageConfig>
@@ -16,6 +20,16 @@
     </EntityImageConfig>
   </EntityImageConfigs>
   <AttributeImageConfigs>
+    <AttributeImageConfig>
+      <attributelogicalname>msmedia_registrationportalbannerimage</attributelogicalname>
+      <parententitylogicalname>msmedia_mediaevent</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>msmedia_registrationportallogo</attributelogicalname>
+      <parententitylogicalname>msmedia_mediaevent</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
     <AttributeImageConfig>
       <attributelogicalname>msmedia_image</attributelogicalname>
       <parententitylogicalname>msmedia_mediavenue</parententitylogicalname>

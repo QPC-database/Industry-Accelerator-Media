@@ -28,6 +28,7 @@
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
     <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="1" schemaName="msmedia_dispenser" />
     <AppModuleComponent type="1" schemaName="msmedia_eventattraction" />
     <AppModuleComponent type="1" schemaName="msmedia_guest" />
     <AppModuleComponent type="1" schemaName="lead" />

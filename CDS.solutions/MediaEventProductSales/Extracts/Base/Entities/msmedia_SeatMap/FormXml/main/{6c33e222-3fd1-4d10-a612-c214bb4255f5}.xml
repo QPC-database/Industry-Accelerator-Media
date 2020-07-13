@@ -147,6 +147,32 @@
           <columns>
             <column width="100%">
               <sections>
+                <section name="SeatMapDetailsSection" showlabel="false" showbar="false" locklevel="0" id="{ccc1d7e9-d209-c15a-6494-28ea4a254a68}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9a16960a-8a38-26ba-1222-d943343735a1}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msmedia_name" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_name" disabled="false" uniqueid="{5e68ea49-e3c4-52e9-6280-99bed2468b1a}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="SeatMapAdministrationTab" id="697de8d9-d008-4df6-ac9c-8b61705a5f42" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Seat Map Administration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
                 <section name="SeatSectionSection" id="556d6737-5f45-4aeb-a440-6385db9000b8" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
                   <labels>
                     <label description="Seat Section Section" languagecode="1033" />
@@ -183,21 +209,6 @@
                     <row />
                     <row />
                     <row />
-                  </rows>
-                </section>
-                <section name="SeatMapDetailsSection" showlabel="false" showbar="false" locklevel="0" id="{ccc1d7e9-d209-c15a-6494-28ea4a254a68}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
-                  <labels>
-                    <label description="Section" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{9a16960a-8a38-26ba-1222-d943343735a1}" showlabel="false" locklevel="0">
-                        <labels>
-                          <label description="Name" languagecode="1033" />
-                        </labels>
-                        <control id="msmedia_name" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msmedia_name" disabled="false" uniqueid="{5e68ea49-e3c4-52e9-6280-99bed2468b1a}" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
               </sections>
@@ -248,7 +259,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
